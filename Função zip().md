@@ -29,14 +29,14 @@ lista_consolidada = list(zip(lista1,lista2))
 [('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
 
 ```python
-conjunto_consolidado = zip(lista1,lista2)
+conjunto_consolidado = set(zip(lista1,lista2))
 ```
 {('Pedro', 8.5), ('Bianca', 6), ('Joel', 8), ('Márcia', 10)} (a ordem dos elementos do conjunto pode mudar)<br/><br/>
 
 ```python
-dicionario_consolidado = zip(lista1,lista2)
+dicionario_consolidado = dict(zip(lista1,lista2))
 ```
-{'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}<br/><br/>
+{'Bianca': 6, 'Pedro': 8.5, 'Márcia': 10, 'Joel': 8}<br/><br/>
 
 ##Consolidando duas listas em um único dicionário<br/>
 ```python
