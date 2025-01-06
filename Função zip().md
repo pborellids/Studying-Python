@@ -25,6 +25,7 @@ Podemos consultar a posição da memória em que estão as tuplas:<br/>
 <br/><br/>
 O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posição de memória onde as tuplas iniciam. Não é muito útil, né?<br/><br/>
 
+## Consolidando duas listas em um único dicionário<br/>
 A função fica útil quando produzimos algum iterável (lista, conjunto, dicionário, tupla) a partir do iterável zip:<br/>
 ```python
 lista_consolidada = list(zip(lista1,lista2))
@@ -41,9 +42,9 @@ dicionario_consolidado = dict(zip(lista1,lista2))
 ```
 {'Bianca': 6, 'Pedro': 8.5, 'Márcia': 10, 'Joel': 8}<br/><br/>
 
-## Consolidando duas listas em um único dicionário<br/>
+Ou, usando um loop explorando o iterável:
 ```python
-for chave,valor in zip(lista1,lista2):
+for chave,valor in zip(lista1,lista2): # "chave,valor", na sintaxe usada, é basicamente uma tupla.
     dic1[chave] = valor
 print(dic1)
 ```
