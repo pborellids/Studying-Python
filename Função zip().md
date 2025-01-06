@@ -48,10 +48,10 @@ print(dic1)
 
 ## Observação importante<br/>
 Como iteráveis em geral, o iterável será perdido após o primeiro uso (iterável é exaurido após ser percorrido).<br/>
-Isso é uma providência inteligente da linguagem Python, a fim de evitar o consumo de recursos desnecessários.<br/>
+Isso é uma providência inteligente da linguagem Python, a fim de evitar o consumo de recursos desnecessários.<br/><br/>
+Primeiro uso do iterável:<br/>
 ```python
 zipped = zip(lista1,lista2)
-# Primeiro uso do iterável:
 print(list(zipped))
 ```
 [('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
