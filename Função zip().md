@@ -13,9 +13,9 @@ Número<br/>
 &nbsp;&nbsp;&nbsp;da<br/>
 &nbsp;Tupla  |     Tupla<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1        |  ('Bianca', 6)<br/>
-2        |  ('Pedro', 8.5)<br/>
-3        |  ('Márcia', 10)<br/>
-4        |  ('Joel', 8)]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2        |  ('Pedro', 8.5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3        |  ('Márcia', 10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4        |  ('Joel', 8)]<br/>
 Podemos consultar a posição da memória em que estão as tuplas:
 print(zip(lista1,lista2))
 O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posição de memória onde as tuplas iniciam. Não é muito útil, né?
