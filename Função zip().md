@@ -20,7 +20,7 @@ Podemos consultar a posição da memória em que estão as tuplas:<br/>
 print(zip(lista1,lista2))<br/>
 O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posição de memória onde as tuplas iniciam. Não é muito útil, né?<br/><br/>
 
-A função fica útil quando produzimos algum interável (lista, conjunto, dicionário, tupla) a partir do iterável zip:<br/>
+A função fica útil quando produzimos algum iterável (lista, conjunto, dicionário, tupla) a partir do iterável zip:<br/>
 lista_consolidada = zip(lista1,lista2):<br/>
 [('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
 
