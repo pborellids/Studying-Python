@@ -42,7 +42,7 @@ dicionario_consolidado = dict(zip(lista1,lista2))
 ```
 {'Bianca': 6, 'Pedro': 8.5, 'Márcia': 10, 'Joel': 8}<br/><br/>
 
-Ou, usando um loop explorando o iterável:
+Ou, explorando o iterável através de um loop:
 ```python
 for chave,valor in zip(lista1,lista2): # "chave,valor", na sintaxe usada, é basicamente uma tupla.
     dic1[chave] = valor
