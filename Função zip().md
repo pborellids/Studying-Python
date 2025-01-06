@@ -42,7 +42,7 @@ dicionario_consolidado = dict(zip(lista1,lista2))
 ```
 {'Bianca': 6, 'Pedro': 8.5, 'Márcia': 10, 'Joel': 8}<br/><br/>
 
-Ou, explorando o iterável através de um loop:
+Ou, explorando o iterator através de um loop:
 ```python
 for chave,valor in zip(lista1,lista2): # "chave,valor", na sintaxe usada, é basicamente uma tupla.
     dic1[chave] = valor
@@ -51,15 +51,15 @@ print(dic1)
 {'Bianca': 6, 'Pedro': 8.5, 'Márcia': 10, 'Joel': 8}<br/><br/>
 
 ## Observação importante<br/>
-Como iteráveis em geral, o iterável será perdido após o primeiro uso (iterável é exaurido após ser percorrido).<br/>
-Isso é uma providência inteligente da linguagem Python, a fim de evitar o consumo de recursos desnecessários.<br/><br/>
-Primeiro uso do iterável:<br/>
+Como iterators em geral, o iterator será perdido após o primeiro uso (iterator é exaurido após ser percorrido).<br/>
+Isso é uma providência inteligente da linguagem Python, pois evita o consumo de recursos desnecessários na memória.<br/><br/>
+Primeiro uso do iterator:<br/>
 ```python
 zipped = zip(lista1,lista2)
 print(list(zipped))
 ```
 [('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
-Segundo uso do iterável:<br/>
+Segundo uso do iterator:<br/>
 ```python
 print(list(zipped))
 # Não há conteúdo agora.
