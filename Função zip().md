@@ -41,7 +41,7 @@ dicionario_consolidado = dict(zip(lista1,lista2))
 ```
 {'Bianca': 6, 'Pedro': 8.5, 'Márcia': 10, 'Joel': 8}<br/><br/>
 
-##Consolidando duas listas em um único dicionário<br/>
+## Consolidando duas listas em um único dicionário<br/>
 ```python
 for chave,valor in zip(lista1,lista2):
     dic1[chave] = valor
