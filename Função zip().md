@@ -5,7 +5,7 @@ O número de elementos das tuplas corresponde à quantidade de argumentos usados
 
 ## Exemplo
 Suponha que tenhamos estas listas:<br/>
-```
+```python
 lista1 = ['Bianca', 'Pedro', 'Márcia', 'Joel'] # lista de 4 nomes de alunos<br/>
 lista2 = [6,8.5,10,8] # lista de 4 notas de provas desses alunos<br/><br/>
 ```
