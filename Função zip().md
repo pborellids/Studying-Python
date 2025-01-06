@@ -6,8 +6,8 @@ O número de elementos das tuplas corresponde à quantidade de argumentos usados
 ## Exemplo
 Suponha que tenhamos estas listas:<br/>
 ```python
-lista1 = ['Bianca', 'Pedro', 'Márcia', 'Joel'] # lista de 4 nomes de alunos<br/>
-lista2 = [6,8.5,10,8] # lista de 4 notas de provas desses alunos<br/><br/>
+lista1 = ['Bianca', 'Pedro', 'Márcia', 'Joel'] # lista de 4 nomes de alunos
+lista2 = [6,8.5,10,8] # lista de 4 notas de provas desses alunos<br/>
 ```
 
 O comando zip(lista1,lista2) produzirá, na memória do programa, este conjunto de tuplas:<br/>
@@ -24,17 +24,17 @@ O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posi
 
 A função fica útil quando produzimos algum iterável (lista, conjunto, dicionário, tupla) a partir do iterável zip:<br/>
 ```python
-lista_consolidada = zip(lista1,lista2):<br/>
+lista_consolidada = zip(lista1,lista2)
 ```
 [('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
 
 ```python
-conjunto_consolidado = zip(lista1,lista2)<br/>
+conjunto_consolidado = zip(lista1,lista2)
 ```
 {('Pedro', 8.5), ('Bianca', 6), ('Joel', 8), ('Márcia', 10)} (a ordem dos elementos do conjunto pode mudar)<br/><br/>
 
 ```python
-dicionario_consolidado = zip(lista1,lista2)<br/>
+dicionario_consolidado = zip(lista1,lista2)
 ```
 {'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}<br/><br/>
 
@@ -49,11 +49,15 @@ print(dic1)
 ## Observação importante<br/>
 Como iteráveis em geral, o iterável será perdido após o primeiro uso (iterável é exaurido após ser percorrido).<br/>
 Isso é uma providência inteligente da linguagem Python, a fim de evitar o consumo de recursos desnecessários.<br/>
-zipped = zip(lista1,lista2)<br/>
-Primeiro uso do iterável:<br/>
-print(list(zipped))<br/>
+```python
+zipped = zip(lista1,lista2)
+# Primeiro uso do iterável:
+print(list(zipped))
+```
 [('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/>
 Segundo uso do iterável:<br/>
-print(list(zipped))<br/>
-[]<br/>
-Não há conteúdo agora.<br/>
+```python
+print(list(zipped))
+# Não há conteúdo agora.
+```
+[]
