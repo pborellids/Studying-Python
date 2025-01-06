@@ -54,7 +54,7 @@ zipped = zip(lista1,lista2)
 # Primeiro uso do iterável:
 print(list(zipped))
 ```
-[('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/>
+[('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
 Segundo uso do iterável:<br/>
 ```python
 print(list(zipped))
