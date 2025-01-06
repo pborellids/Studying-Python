@@ -9,11 +9,11 @@ lista1 = ['Bianca', 'Pedro', 'Márcia', 'Joel'] # lista de 4 nomes de alunos
 lista2 = [6,8.5,10,8] # lista de 4 notas de provas desses alunos
 
 O comando zip(lista1,lista2) produzirá, na memória do programa, este conjunto de tuplas:
-Número da Tupla  |     Tupla
-        1        |  ('Bianca', 6)
-        2        |  ('Pedro', 8.5)
-        3        |  ('Márcia', 10)
-        4        |  ('Joel', 8)]
+- Número da Tupla  |     Tupla
+-        1        |  ('Bianca', 6)
+-        2        |  ('Pedro', 8.5)
+-        3        |  ('Márcia', 10)
+-        4        |  ('Joel', 8)]
 Podemos consultar a posição da memória em que estão as tuplas:
 print(zip(lista1,lista2))
 O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posição de memória onde as tuplas iniciam. Não é muito útil, né?
