@@ -16,33 +16,33 @@ Número&nbsp;&nbsp;|<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('Pedro', 8.5)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('Márcia', 10)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('Joel', 8)]<br/>
-Podemos consultar a posição da memória em que estão as tuplas:
-print(zip(lista1,lista2))
-O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posição de memória onde as tuplas iniciam. Não é muito útil, né?
+Podemos consultar a posição da memória em que estão as tuplas:<br/>
+print(zip(lista1,lista2))<br/>
+O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posição de memória onde as tuplas iniciam. Não é muito útil, né?<br/><br/>
 
-A função fica útil quando produzimos algum interável (lista, conjunto, dicionário, tupla) a partir do iterável zip:
-lista_consolidada = zip(lista1,lista2):
-[('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]
+A função fica útil quando produzimos algum interável (lista, conjunto, dicionário, tupla) a partir do iterável zip:<br/>
+lista_consolidada = zip(lista1,lista2):<br/>
+[('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
 
-conjunto_consolidado = zip(lista1,lista2)
-{('Pedro', 8.5), ('Bianca', 6), ('Joel', 8), ('Márcia', 10)} (a ordem dos elementos do conjunto pode mudar)
+conjunto_consolidado = zip(lista1,lista2)<br/>
+{('Pedro', 8.5), ('Bianca', 6), ('Joel', 8), ('Márcia', 10)} (a ordem dos elementos do conjunto pode mudar)<br/><br/>
 
-dicionario_consolidado = zip(lista1,lista2)
-{'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}
+dicionario_consolidado = zip(lista1,lista2)<br/>
+{'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}<br/><br/>
 
-##Consolidando duas listas em um único dicionário
-for chave,valor in zip(lista1,lista2):
-    dic1[chave] = valor
-print(dic1)
-{'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}
+##Consolidando duas listas em um único dicionário<br/>
+for chave,valor in zip(lista1,lista2):<br/>
+    dic1[chave] = valor<br/>
+print(dic1)<br/>
+{'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}<br/><br/>
 
-## Observação importante
-Como iteráveis em geral, o iterável será perdido após o primeiro uso (iterável é exaurido após ser percorrido).
-zipped = zip(lista1,lista2)
-Primeiro uso do iterável:
-print(list(zipped))
-[('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]
-Segundo uso do iterável:
-print(list(zipped))
-[]
-Não há conteúdo agora.
+## Observação importante<br/>
+Como iteráveis em geral, o iterável será perdido após o primeiro uso (iterável é exaurido após ser percorrido).<br/>
+zipped = zip(lista1,lista2)<br/>
+Primeiro uso do iterável:<br/>
+print(list(zipped))<br/>
+[('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/>
+Segundo uso do iterável:<br/>
+print(list(zipped))<br/>
+[]<br/>
+Não há conteúdo agora.<br/>
