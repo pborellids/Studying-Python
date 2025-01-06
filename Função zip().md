@@ -3,11 +3,6 @@
 Basicamente, a função zip produz um iterável de n tuplas a partir de outros iteráveis utilizados como argumentos da função.
 O número de elementos das tuplas corresponde à quantidade de argumentos usados ao chamar a função.
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 ## Exemplo
 Suponha que tenhamos estas listas:<br/>
 ```python
@@ -15,7 +10,12 @@ lista1 = ['Bianca', 'Pedro', 'Márcia', 'Joel'] # lista de 4 nomes de alunos
 lista2 = [6,8.5,10,8] # lista de 4 notas de provas desses alunos<br/>
 ```
 
-O comando zip(lista1,lista2) produzirá, na memória do programa, este conjunto de tuplas:<br/>
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+O comando ```zip(lista1,lista2)``` produzirá, na memória do programa, este conjunto de tuplas:<br/>
 Número&nbsp;&nbsp;|<br/>
 &nbsp;&nbsp;&nbsp;da&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tupla<br/>
 &nbsp;Tupla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
