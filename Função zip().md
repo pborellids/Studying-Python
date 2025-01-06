@@ -34,7 +34,7 @@ lista_consolidada = list(zip(lista1,lista2))
 ```python
 conjunto_consolidado = set(zip(lista1,lista2))
 ```
-{('Pedro', 8.5), ('Bianca', 6), ('Joel', 8), ('Márcia', 10)} (a ordem dos elementos do conjunto pode mudar)<br/><br/>
+{('Pedro', 8.5), ('Bianca', 6), ('Joel', 8), ('Márcia', 10)} (a ordem dos elementos do conjunto **pode mudar**)<br/><br/>
 
 ```python
 dicionario_consolidado = dict(zip(lista1,lista2))
