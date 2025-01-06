@@ -10,12 +10,14 @@ lista1 = ['Bianca', 'Pedro', 'Márcia', 'Joel'] # lista de 4 nomes de alunos
 lista2 = [6,8.5,10,8] # lista de 4 notas de provas desses alunos<br/>
 ```
 
-| First Header  | Second Header |
+
+O comando ```zip(lista1,lista2)``` produzirá, na memória do programa, este conjunto de tuplas:<br/>
+| Número da Tupla |   Tupla   |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-O comando ```zip(lista1,lista2)``` produzirá, na memória do programa, este conjunto de tuplas:<br/>
+
 Número&nbsp;&nbsp;|<br/>
 &nbsp;&nbsp;&nbsp;da&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tupla<br/>
 &nbsp;Tupla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
