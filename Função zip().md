@@ -9,8 +9,8 @@ lista1 = ['Bianca', 'Pedro', 'Márcia', 'Joel'] # lista de 4 nomes de alunos
 lista2 = [6,8.5,10,8] # lista de 4 notas de provas desses alunos
 
 O comando zip(lista1,lista2) produzirá, na memória do programa, este conjunto de tuplas:<br/>
-Número
-&nbsp;&nbsp;da
+Número<br/>
+&nbsp;&nbsp;da<br/>
 &nbsp;&nbsp;Tupla  |     Tupla<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1        |  ('Bianca', 6)<br/>
 2        |  ('Pedro', 8.5)<br/>
