@@ -24,7 +24,7 @@ O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posi
 
 A função fica útil quando produzimos algum iterável (lista, conjunto, dicionário, tupla) a partir do iterável zip:<br/>
 ```python
-lista_consolidada = zip(lista1,lista2)
+lista_consolidada = list(zip(lista1,lista2))
 ```
 [('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
 
