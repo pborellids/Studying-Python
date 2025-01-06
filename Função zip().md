@@ -23,19 +23,27 @@ print(zip(lista1,lista2))<br/>
 O resultado seria algo neste formato: <zip object at 0x000002058760DDC0>, a posição de memória onde as tuplas iniciam. Não é muito útil, né?<br/><br/>
 
 A função fica útil quando produzimos algum iterável (lista, conjunto, dicionário, tupla) a partir do iterável zip:<br/>
+```python
 lista_consolidada = zip(lista1,lista2):<br/>
+```
 [('Bianca', 6), ('Pedro', 8.5), ('Márcia', 10), ('Joel', 8)]<br/><br/>
 
+```python
 conjunto_consolidado = zip(lista1,lista2)<br/>
+```
 {('Pedro', 8.5), ('Bianca', 6), ('Joel', 8), ('Márcia', 10)} (a ordem dos elementos do conjunto pode mudar)<br/><br/>
 
+```python
 dicionario_consolidado = zip(lista1,lista2)<br/>
+```
 {'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}<br/><br/>
 
 ##Consolidando duas listas em um único dicionário<br/>
+```python
 for chave,valor in zip(lista1,lista2):<br/>
     dic1[chave] = valor<br/>
 print(dic1)<br/>
+```
 {'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}<br/><br/>
 
 ## Observação importante<br/>
