@@ -40,9 +40,9 @@ dicionario_consolidado = zip(lista1,lista2)<br/>
 
 ##Consolidando duas listas em um único dicionário<br/>
 ```python
-for chave,valor in zip(lista1,lista2):<br/>
-    dic1[chave] = valor<br/>
-print(dic1)<br/>
+for chave,valor in zip(lista1,lista2):
+    dic1[chave] = valor
+print(dic1)
 ```
 {'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}<br/><br/>
 
