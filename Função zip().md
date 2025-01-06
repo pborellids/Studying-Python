@@ -12,7 +12,7 @@ O comando zip(lista1,lista2) produzirá, na memória do programa, este conjunto 
 Número<br/>
 &nbsp;&nbsp;&nbsp;da<br/>
 &nbsp;Tupla  |     Tupla<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1        |  ('Bianca', 6)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1        |  ('Bianca', 6)<br/>
 2        |  ('Pedro', 8.5)<br/>
 3        |  ('Márcia', 10)<br/>
 4        |  ('Joel', 8)]<br/>
