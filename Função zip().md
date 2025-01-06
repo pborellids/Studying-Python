@@ -3,7 +3,7 @@
 Basicamente, a função zip produz um iterável de n tuplas a partir de outros iteráveis utilizados como argumentos da função.
 O número de elementos das tuplas corresponde à quantidade de argumentos usados ao chamar a função.
 
-##Exemplo
+## Exemplo
 Suponha que tenhamos estas listas:<br/>
 lista1 = ['Bianca', 'Pedro', 'Márcia', 'Joel'] # lista de 4 nomes de alunos<br/>
 lista2 = [6,8.5,10,8] # lista de 4 notas de provas desses alunos<br/><br/>
