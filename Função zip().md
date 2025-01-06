@@ -44,7 +44,7 @@ for chave,valor in zip(lista1,lista2):
     dic1[chave] = valor
 print(dic1)
 ```
-{'Bianca':6, 'Pedro':8.5, 'Márcia':10, 'Joel':8}<br/><br/>
+{'Bianca': 6, 'Pedro': 8.5, 'Márcia': 10, 'Joel': 8}<br/><br/>
 
 ## Observação importante<br/>
 Como iteráveis em geral, o iterável será perdido após o primeiro uso (iterável é exaurido após ser percorrido).<br/>
