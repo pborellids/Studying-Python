@@ -38,7 +38,7 @@ print(dic1)<br/>
 
 ## Observação importante<br/>
 Como iteráveis em geral, o iterável será perdido após o primeiro uso (iterável é exaurido após ser percorrido).<br/>
-Isso é uma providência inteligente da linguagem Python, a fim de consumir recursos desnecessários.<br/>
+Isso é uma providência inteligente da linguagem Python, a fim de evitar o consumo de recursos desnecessários.<br/>
 zipped = zip(lista1,lista2)<br/>
 Primeiro uso do iterável:<br/>
 print(list(zipped))<br/>
