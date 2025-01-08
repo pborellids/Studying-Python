@@ -1,9 +1,9 @@
 # O método "setdefault()" em dicionários permite a criação fácil de dicionários a partir de pares de listas.
 
 ## O que faz
-O método ```setdefault()``` faz simultaneamente duas operações: ele verifica se existe uma determinada chave no dicionário (que é formado por pares chave-valor).<br/>
-* Se existir, então ele atualiza o valor associado à chave.<br/>
-* Caso a chave não exista, a chave é criada e pareada com o valor fornecido.<br/>
+O método ```setdefault()``` faz simultaneamente duas operações: ele verifica se existe uma determinada chave no dicionário (que é formado por pares chave-valor). O mnétodo retorna o valor associado à chave.<br/>
+* Se a chave existir no dicionário, então o método atualizará o valor já associado à chave, e retorna o respectivo novo valor.<br/>
+* Caso a chave não exista, a chave será criada e pareada com o valor fornecido.<br/>
 ## Exemplo 1:<br/>
 Será criado um dicionário com os dados das posições homólogas das listas "chaves" e "valores".<br/> 
 ```python
