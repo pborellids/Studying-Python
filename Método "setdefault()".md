@@ -25,7 +25,7 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
 {'m': ['manga', 'melancia'], 'a': ['alface', 'abacate'], 'b': ['beterraba', 'banana']}
 ```
 <br/>
-### Implementação:<br/>
+## Implementação:<br/>
 palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana'] # lista original de palavras
 print(palavras) # ['manga', 'alface', 'beterraba', 'melancia', 'abacate', 'banana']
 por_inicial = {} # dicionário vazio
