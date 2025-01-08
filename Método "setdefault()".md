@@ -22,7 +22,9 @@ Numa aplicação mais interessante, e um pouco mais complexa, vamos criar um dic
 
 A lista de palavras e o dicionário que buscamos são:<br/>
 ```python
+# lista de palavras:
 palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
+
 # dicionário organizado pelas iniciais das palavras:
 {'m': ['manga', 'melancia'], 'a': ['alface', 'abacate'], 'b': ['beterraba', 'banana']}
 ```
