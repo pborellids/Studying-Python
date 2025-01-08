@@ -3,7 +3,7 @@
 ## O que faz
 O método ```setdefault()``` faz simultaneamente duas operações: ele verifica se existe uma determinada chave no dicionário (que é formado por pares chave-valor).<br/>
 * Se existir, então ele atualiza o valor associado à chave.<br/>
-* Caso a chave não exista, a chave é criada e pareada com o valor fornecido.<br/><br/>
+* Caso a chave não exista, a chave é criada e pareada com o valor fornecido.<br/>
 ## Exemplo:<br/>
 Será criado um dicionário com os dados das posições homólogas das listas "chaves" e "valores".<br/> 
 ```python
@@ -15,3 +15,8 @@ for i in range(3): # i variando de 0 a 2 inclusive
                                            # será criado o par chave-valor com os dados das posições homólogas das duas listas.
 print(dic1) # {'objeto': 'mesa', 'material': 'madeira', 'preço': '1.000,00'}
 ```
+
+Numa aplicação mais interessante, e um pouco mais complexa, vamos criar um dicionário organizado (chaves) pelas iniciais das palavras de uma lista.<br/>
+A lista de palavras é:<br/>
+```python
+palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']```
