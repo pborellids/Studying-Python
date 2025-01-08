@@ -26,7 +26,6 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
 # dicionário organizado pelas iniciais das palavras:
 {'m': ['manga', 'melancia'], 'a': ['alface', 'abacate'], 'b': ['beterraba', 'banana']}
 ```
-<br/>
 
 ### Implementação:<br/>
 ```python
