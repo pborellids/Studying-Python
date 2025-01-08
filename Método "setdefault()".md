@@ -16,7 +16,6 @@ for i in range(3): # i variando de 0 a 2 inclusive
 print(dic1) # {'objeto': 'mesa', 'material': 'madeira', 'preço': '1.000,00'}
 ```
 <br/>
-
 ## Exemplo 2:<br/>
 Numa aplicação mais interessante, e um pouco mais complexa, vamos criar um dicionário organizado (chaves) pelas iniciais das palavras de uma lista.<br/>
 A lista de palavras e o dicionário que buscamos são:<br/>
