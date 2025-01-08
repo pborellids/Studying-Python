@@ -9,7 +9,7 @@ Será criado um dicionário com os dados das posições homólogas das listas "c
 ```python
 chaves = ['objeto', 'material', 'preço'] # lista com chaves que serão usadas no dicionário
 valores = ['mesa', 'madeira', '1.000,00'] # lista com valores que serão usados no dicionário
-dic1 = {} # criação de dicionário vazio
+dic1 = {} # um dicionário vazio
 for i in range(3): # i variando de 0 a 2 inclusive
     dic1.setdefault(chaves[i], valores[i]) # como nenhuma das chaves existe,
                                            # será criado o par chave-valor com os dados das posições homólogas das duas listas.
