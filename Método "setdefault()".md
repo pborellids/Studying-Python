@@ -1,4 +1,4 @@
-# O método "setdefault()" em dicionários permite a criação fácil de dicionários a partir de pares de listas.
+# O método "setdefault()" em dicionários permite a criação de dicionários a partir de pares de listas.
 
 ## O que faz
 O método ```setdefault()``` faz simultaneamente duas operações: ele verifica se existe uma determinada chave no dicionário (dicionários são formados por pares chave-valor). O mnétodo retorna o valor associado à chave.<br/>
