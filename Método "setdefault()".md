@@ -26,6 +26,7 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
 {'m': ['manga', 'melancia'], 'a': ['alface', 'abacate'], 'b': ['beterraba', 'banana']}
 ```
 <br/>
+
 ### Implementação:<br/>
 ```python
 palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana'] # lista original de palavras
