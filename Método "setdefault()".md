@@ -24,4 +24,13 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
 # dicionário organizado pelas iniciais das palavras:
 {'m': ['manga', 'melancia'], 'a': ['alface', 'abacate'], 'b': ['beterraba', 'banana']}
 ```
-
+<br/>
+### Implementação:<br/>
+palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana'] # lista original de palavras
+print(palavras) # ['manga', 'alface', 'beterraba', 'melancia', 'abacate', 'banana']
+por_inicial = {} # dicionário vazio
+for palavra in palavras:
+    inicial = palavra[0] # somente as letras iniciais são obtidas
+    por_inicial.setdefault(inicial, []).append(palavra) # key = inicial, value = lista de palavras com a inicial
+print(por_inicial) # {'m': ['manga', 'melancia'], 'a': ['alface', 'abacate'], 'b': ['beterraba', 'banana']}
+```
