@@ -28,7 +28,7 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
 ```
 <br/>
 Visualmente, é isso que o código fará: os elementos da lista serão transpostos para um novo dicionário, 
-que organizará os elementos a partir das iniciais.<br/>
+que organizará os elementos a partir das iniciais das palavras da lista.<br/>
 
 ![image](https://github.com/user-attachments/assets/bacee93f-8080-4ed8-a2a0-7f51a9686973)
 
