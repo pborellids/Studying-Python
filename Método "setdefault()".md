@@ -5,7 +5,7 @@ O método ```setdefault()``` faz simultaneamente duas operações: ele verifica 
 * Se existir, então ele atualiza o valor associado à chave.<br/>
 * Caso a chave não exista, a chave é criada e pareada com o valor fornecido.<br/><br/>
 ## Exemplo:<br/>
-Será criado um dicionário com os dados das posições homólogadas das listas.<br/> 
+Será criado um dicionário com os dados das posições homólogas das listas "chaves" e "valores".<br/> 
 ```python
 chaves = ['objeto', 'material', 'preço'] # lista com chaves que serão usadas on dicionário
 valores = ['mesa', 'madeira', '1.000,00'] # lista com valores que serão usados no dicionário
