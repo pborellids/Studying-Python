@@ -2,7 +2,7 @@
 
 ## O que faz
 O método ```setdefault()``` faz simultaneamente duas operações: ele verifica se existe uma determinada chave no dicionário (dicionários são formados por pares chave-valor). O mnétodo retorna o valor associado à chave.<br/>
-* Se a chave existir no dicionário, então o método atualizará o valor já associado à chave, e retorna o respectivo novo valor.<br/>
+* Se a chave existir no dicionário, então o método atualizará o valor já associado à chave, e retornará o respectivo novo valor.<br/>
 * Caso a chave não exista, a chave será criada e pareada com o valor fornecido.<br/>
 ## Exemplo 1:<br/>
 Será criado um dicionário com os dados das posições homólogas das listas "chaves" e "valores".<br/> 
