@@ -1,6 +1,6 @@
 # O método "setdefault()" em dicionários
 
-O método ```setdefault()``` faz simultaneamnete duas operações:
+O método ```setdefault()``` faz simultaneamnete duas operações:<br/>
 ele verifica se existe uma determinada chave no dicionário (que é formado por pares chave-valor).
 Se existir, então ele atualiza o valor associado à chave.
 Caso a chave não exista, a chave é criada e pareada com o valor fornecido.
