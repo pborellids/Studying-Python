@@ -7,7 +7,7 @@ O método ```setdefault()``` faz simultaneamente duas operações após verifica
 ## Exemplo 1:<br/>
 Será criado um dicionário com os dados das posições homólogas das listas "chaves" e "valores".<br/> 
 ```python
-chaves = ['objeto', 'material', 'preço'] # lista com chaves que serão usadas on dicionário
+chaves = ['objeto', 'material', 'preço'] # lista com chaves que serão usadas no dicionário
 valores = ['mesa', 'madeira', '1.000,00'] # lista com valores que serão usados no dicionário
 dic1 = {} # criação de dicionário vazio
 for i in range(3): # i variando de 0 a 2 inclusive
