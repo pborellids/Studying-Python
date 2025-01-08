@@ -28,6 +28,7 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
 <br/>
 
 ### Implementação:<br/>
+```python
 palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana'] # lista original de palavras
 print(palavras) # ['manga', 'alface', 'beterraba', 'melancia', 'abacate', 'banana']
 por_inicial = {} # dicionário vazio
