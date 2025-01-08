@@ -34,6 +34,10 @@ que organizará os elementos a partir das iniciais das palavras da lista.<br/>
 
 
 ### Implementação:<br/>
+* Lista "palavras": lista de palavras que serão organizadas no dicionário.<br/>
+* Dicionário "por_inicial": dicionário que organizará o conteúdo a partir das iniciais dos valores.<br/>
+* String "inicial": uma string de um caracter, a letra inicial da palavra.<br/>
+
 ```python
 palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana'] # lista original de palavras
 print(palavras) # ['manga', 'alface', 'beterraba', 'melancia', 'abacate', 'banana']
