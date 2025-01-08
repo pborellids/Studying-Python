@@ -4,6 +4,7 @@
 O método ```setdefault()``` faz simultaneamente duas operações: ele verifica se existe uma determinada chave no dicionário (que é formado por pares chave-valor).<br/>
 * Se existir, então ele atualiza o valor associado à chave.<br/>
 * Caso a chave não exista, a chave é criada e pareada com o valor fornecido.<br/>
+
 ## Exemplo 1:<br/>
 Será criado um dicionário com os dados das posições homólogas das listas "chaves" e "valores".<br/> 
 ```python
@@ -16,6 +17,7 @@ for i in range(3): # i variando de 0 a 2 inclusive
 print(dic1) # {'objeto': 'mesa', 'material': 'madeira', 'preço': '1.000,00'}
 ```
 <br/>
+
 ## Exemplo 2:<br/>
 Numa aplicação mais interessante, e um pouco mais complexa, vamos criar um dicionário organizado (chaves) pelas iniciais das palavras de uma lista.<br/>
 A lista de palavras e o dicionário que buscamos são:<br/>
@@ -25,6 +27,7 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
 {'m': ['manga', 'melancia'], 'a': ['alface', 'abacate'], 'b': ['beterraba', 'banana']}
 ```
 <br/>
+
 ## Implementação:<br/>
 palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana'] # lista original de palavras
 print(palavras) # ['manga', 'alface', 'beterraba', 'melancia', 'abacate', 'banana']
