@@ -11,8 +11,8 @@ chaves = ['objeto', 'material', 'preço'] # lista com chaves que serão usadas n
 valores = ['mesa', 'madeira', '1.000,00'] # lista com valores que serão usados no dicionário
 dic1 = {} # um dicionário vazio
 for i in range(3): # i variando de 0 a 2 inclusive
-    dic1.setdefault(chaves[i], valores[i]) # como nenhuma das chaves existe,
-                                           # será criado o par chave-valor com os dados das posições homólogas das duas listas.
+    dic1.setdefault(chaves[i], valores[i]) # como nenhuma das chaves existe, será criado o par chave-valor
+                                           # com os dados das posições homólogas das duas listas.
 print(dic1) # {'objeto': 'mesa', 'material': 'madeira', 'preço': '1.000,00'}
 ```
 <br/>
