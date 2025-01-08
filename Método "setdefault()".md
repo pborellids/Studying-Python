@@ -35,7 +35,7 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana'] # li
 print(palavras) # ['manga', 'alface', 'beterraba', 'melancia', 'abacate', 'banana']
 por_inicial = {} # dicionário vazio
 for palavra in palavras:
-    inicial = palavra[0] # somente as letras iniciais são obtidas
+    inicial = palavra[0] # letra inicial da palavra
     por_inicial.setdefault(inicial, []).append(palavra) # key = inicial, value = lista de palavras com a inicial
 print(por_inicial) # {'m': ['manga', 'melancia'], 'a': ['alface', 'abacate'], 'b': ['beterraba', 'banana']}
 ```
