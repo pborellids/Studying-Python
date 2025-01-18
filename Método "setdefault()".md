@@ -17,9 +17,9 @@ print(dic2) # {'a': [], 'b': [2]}
 
 ```python
 dic2 = {'a':[]}
-print(dic2)
+print(dic2) # {'a': []}
 dic2.setdefault('b', []).append(2)
-print(dic2)
+print(dic2) # {'a': [], 'b': [2]}
 ```
 <br/>
 
