@@ -30,7 +30,7 @@ palavras = ['manga', 'alface', 'beterraba', 'melancia','abacate', 'banana']
 ```
 <br/>
 Visualmente, é isso que o código fará: os elementos da lista serão copiados para um novo dicionário.  
-Os elementos do dicionário serõ organizados a partir das iniciais das palavras da lista.<br/>
+Os elementos do dicionário serão organizados a partir das iniciais das palavras da lista.<br/>
 
 ![image](https://github.com/user-attachments/assets/bacee93f-8080-4ed8-a2a0-7f51a9686973)
 
