@@ -21,6 +21,7 @@ dic2.setdefault('b', []).append(2)
 print(dic2)
 ```
 <br/>
+
 ## Exemplo 1:<br/>
 Será criado um dicionário com os dados das posições homólogas das listas "chaves" e "valores".<br/> 
 ```python
