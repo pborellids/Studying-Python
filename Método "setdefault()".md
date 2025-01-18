@@ -14,6 +14,7 @@ dic2['b'].append(2)
 print(dic2) # {'a': [], 'b': [2]}
 ```
 <br/>
+
 ```python
 dic2 = {'a':[]}
 print(dic2)
