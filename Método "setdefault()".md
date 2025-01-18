@@ -8,9 +8,16 @@ O método ```setdefault()``` faz simultaneamente duas operações após verifica
 para o valor da chave, e poderemos manipular esse valor como se estivéssemos lidando diretamente com o dicionário.<br/>
 São equivalentes:<br/>
 ```python
-dic2 = {'a':[], 'b':[]}
-print(dic2)
+dic2 = {'a':[], 'b':[]} # dicionário com duas chaves e duas listas vazias associadas como valores.
+print(dic2) # {'a': [], 'b': []}
 dic2['b'].append(2)
+print(dic2) # {'a': [], 'b': [2]}
+```
+<br/>
+```python
+dic2 = {'a':[]}
+print(dic2)
+dic2.setdefault('b', []).append(2)
 print(dic2)
 ```
 <br/>
