@@ -17,9 +17,9 @@ print(dic2) # {'a': [], 'b': [2]}
 <br/>
 
 ```python
-dic2 = {'a':[]}
+dic2 = {'a':[]} # dicionário com uma única chave e um único valor (lista vazia).
 print(dic2) # {'a': []}
-dic2.setdefault('b', []).append(2) # setdefault() retorna o valor armazenado no dicionário
+dic2.setdefault('b', []).append(2) # setdefault() retorna o valor armazenado no dicionário (expondo a respectiva estrrutura do dicionário) 
 print(dic2) # {'a': [], 'b': [2]}
 ```
 <br/>
