@@ -4,6 +4,16 @@
 O método ```setdefault()``` faz simultaneamente duas operações após verificar se existe uma determinada chave no dicionário (dicionários são formados por pares chave-valor). O método ```setdefault()``` retorna o valor associado à chave.<br/>
 * Se a chave existir no dicionário, então o método atualizará o valor já associado à chave, e retornará o respectivo novo valor.<br/>
 * Caso a chave não exista, a chave será criada e pareada com o valor fornecido.<br/>
+* Mas tem algo mais que o setdefault() faz num dicionário: ao retornar o valor associado à chave, o método aponta, de fato,<br/>
+para o valor da chave, e poderemos manipular esse valor como se estivéssemos lidando diretamente com o dicionário.<br/>
+São equivalentes:<br/>
+```python
+dic2 = {'a':[], 'b':[]}
+print(dic2)
+dic2['b'].append(2)
+print(dic2)
+```
+<br/>
 ## Exemplo 1:<br/>
 Será criado um dicionário com os dados das posições homólogas das listas "chaves" e "valores".<br/> 
 ```python
