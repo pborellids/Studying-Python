@@ -2,9 +2,9 @@
 
 ## No Básico, o que esse método faz?
 Um comando como ```dic1.setdefault(key1, value1)```, a rigor, oferece apenas isto:<br/>
-* verifica se a chave "key1" existe no dicionário dic1.
+* verifica se a chave ("key1") existe no dicionário ("dic1").
 * se a chave existir, o valor atual da chave é retornado.
-* se a chave não existir, a chave "key1" será criada e receberá o valor especificado no argumento "value1".
+* se a chave não existir, a chave ("key1") será adicionada ao dicionário, e receberá o valor especificado no argumento ("value1").
 
 ## Exemplo direto ao ponto
 ```python
