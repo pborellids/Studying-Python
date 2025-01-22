@@ -6,7 +6,7 @@ Um comando como ```dic1.setdefault(key1, value1)```, a rigor, oferece apenas ist
 * se a chave existir, o valor atual da chave é retornado.
 * se a chave não existir, a chave ("key1") será adicionada ao dicionário, e receberá o valor especificado no argumento ("value1").
 
-## Exemplo direto ao ponto
+## Exemplo simples
 ```python
 dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'} # dicionário com 3 chaves: marca, modelo, ano.
 print(dic1)
@@ -19,10 +19,9 @@ Resultado:
 {'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024', 'único dono': 'Sim'}
 ```
 
-O método ```setdefault()``` faz simultaneamente duas operações após verificar se existe uma determinada chave no dicionário (dicionários são formados por pares chave-valor). O método ```setdefault()``` retorna o valor associado à chave.<br/>
-* Se a chave existir no dicionário, então o método atualizará o valor já associado à chave, e retornará o respectivo novo valor.<br/>
-* Caso a chave não exista, a chave será criada e pareada com o valor fornecido.<br/>
-* Há algo mais que o setdefault() faz num dicionário: ao retornar o valor associado à chave, o método aponta, de fato,<br/>
+## Exemplo com preenchimento do dicionário através de iteráveis
+
+Há algo mais que o setdefault() faz num dicionário: ao retornar o valor associado à chave, o método aponta, de fato,<br/>
 para o valor associado à chave, para a respectiva estrutura do dicionário, e poderemos manipular esse valor como se estivéssemos <br/>
 lidando diretamente com o dicionário. Por essa razão, poderemos <ins>aplicar um método de lista para manipular imediatamente o valor.</ins><br/><br/>
 Ou seja, são equivalentes:<br/>
