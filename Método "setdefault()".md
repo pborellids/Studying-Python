@@ -1,5 +1,4 @@
-# branch de rascunho
-# O método "setdefault()" permite a criação de dicionários a partir de pares de listas.
+# O método "setdefault()" tem um superpoder muito interessante!
 
 ## O que faz
 O método ```setdefault()``` faz simultaneamente duas operações após verificar se existe uma determinada chave no dicionário (dicionários são formados por pares chave-valor). O método ```setdefault()``` retorna o valor associado à chave.<br/>
