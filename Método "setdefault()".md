@@ -6,17 +6,31 @@ Um comando como ```dic1.setdefault(key1, value1)```, a rigor, oferece apenas ist
 * se a chave existir, o valor atual da chave é retornado.
 * se a chave não existir, a chave ("key1") será adicionada ao dicionário, e receberá o valor especificado no argumento ("value1").
 
-## Exemplo simples
+## Exemplo de inclusão simples de nova chave e valor
 ```python
-dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'} # dicionário com 3 chaves: marca, modelo, ano.
+dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'}
 print(dic1)
-dic1.setdefault('único dono', 'Sim') # a chave "único dono" não existe. Então será adicionada e o valor será "Sim".
+print(dic1.setdefault('único dono', 'Sim')) # A chave não existe. Então ela será criada, e o novo valor retornará para o print imprimir.
 print(dic1)
 ```
 Resultado:
 ```python
 {'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024'}
+Sim
 {'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024', 'único dono': 'Sim'}
+```
+
+## Exemplo de rejeição do valor
+```python
+dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'}
+print(dic1)
+dic1.setdefault('modelo', 'C4') # "modelo" é chave pré-existente. Não haverá alterações. Valor continuará "C3".
+print(dic1)
+```
+Resultado:
+```python
+{'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024'}
+{'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024'}
 ```
 
 ## Exemplo com preenchimento do dicionário através de iteráveis
