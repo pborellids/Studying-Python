@@ -1,4 +1,4 @@
-# branch do setdefault()
+# branch de rascunho
 # O método "setdefault()" permite a criação de dicionários a partir de pares de listas.
 
 ## O que faz
