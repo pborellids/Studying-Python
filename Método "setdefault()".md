@@ -8,9 +8,9 @@ Um comando como ```dic1.setdefault(key1, value1)```, a rigor, oferece apenas ist
 
 ## Exemplo direto ao ponto
 ```python
-dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'}
+dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'} # dicionário com 3 chaves: marca, modelo, ano.
 print(dic1)
-dic1.setdefault('único dono', 'Sim')
+dic1.setdefault('único dono', 'Sim') # a chave "único dono" não existe. Então será adicionada e o valor será "Sim".
 print(dic1)
 ```
 Resultado:
