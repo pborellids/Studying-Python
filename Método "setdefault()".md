@@ -10,7 +10,7 @@ Um comando como ```dic1.setdefault(key1, value1)```, a rigor, oferece apenas ist
 ```python
 dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'}
 print(dic1)
-print(dic1.setdefault('único dono', 'Sim')) # A chave não existe. Então ela será criada, e o novo valor retornará para o print imprimir.
+print(dic1.setdefault('único dono', 'Sim')) # Chave não existe. Ela será criada. O novo valor retornará para o print imprimir.
 print(dic1)
 ```
 Resultado:
