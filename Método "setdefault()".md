@@ -1,6 +1,12 @@
 # O método "setdefault()" tem um superpoder muito interessante!
 
-## O que faz
+## No Básico, o que setdefault() faz?
+O método setdefault(), ```dic1.setdefault(key1, value1)```, a rigor, oferece apenas isto:<br/>
+* verifica se a chave "key1" existe no dicionário dic1.
+* se a chave existir, o valor da chave é retornado.
+* se a chave não existir, a chave "key1" será criada e receberá o valor especificado no argumento "value1".
+
+
 O método ```setdefault()``` faz simultaneamente duas operações após verificar se existe uma determinada chave no dicionário (dicionários são formados por pares chave-valor). O método ```setdefault()``` retorna o valor associado à chave.<br/>
 * Se a chave existir no dicionário, então o método atualizará o valor já associado à chave, e retornará o respectivo novo valor.<br/>
 * Caso a chave não exista, a chave será criada e pareada com o valor fornecido.<br/>
