@@ -6,18 +6,20 @@ Um comando como ```dic1.setdefault(key1, value1)```, a rigor, oferece apenas ist
 * se a chave existir, o valor atual da chave é retornado.
 * se a chave não existir, a chave ("key1") será adicionada ao dicionário, e receberá o valor especificado no argumento ("value1").
 
-## Exemplo de inclusão simples de nova chave e valor
+## Exemplo 1: inclusão de nova chave e valor
 ```python
 dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'}
-print(dic1)
-print(dic1.setdefault('único dono', 'Sim')) # Chave não existe. Ela será criada. O novo valor retornará para o print imprimir.
-print(dic1)
+print('====== Exemplo 1 - Chave não existe e será adicionada'.upper(), '======')
+print('Estado original do dicionário:', dic1, '- com 3 chaves.')
+print('Valor da nova chave \'único dono\':', dic1.setdefault('único dono', 'Sim'))
+print('Estado final do dicionário:', dic1, '- com 4 chaves.')
 ```
 Resultado:
 ```python
-{'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024'}
-Sim
-{'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024', 'único dono': 'Sim'}
+====== EXEMPLO 1 - CHAVE NÃO EXISTE E SERÁ ADICIONADA ======
+Estado original do dicionário: {'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024'} - com 3 chaves.
+Valor da nova chave 'único dono': Sim
+Estado final do dicionário: {'marca': 'Citroen', 'modelo': 'C3', 'ano': '2024', 'único dono': 'Sim'} - com 4 chaves.
 ```
 
 ## Exemplo de rejeição do valor
