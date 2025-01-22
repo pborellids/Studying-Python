@@ -6,6 +6,11 @@ Um comando como ```dic1.setdefault(key1, value1)```, a rigor, oferece apenas ist
 * se a chave existir, o valor atual da chave é retornado.
 * se a chave não existir, a chave "key1" será criada e receberá o valor especificado no argumento "value1".
 
+## Exemplo direto ao ponto
+```python
+dic1 = {'marca':'Citroen', 'modelo':'C3', 'ano':'2024'}
+print(dic1)
+```
 
 O método ```setdefault()``` faz simultaneamente duas operações após verificar se existe uma determinada chave no dicionário (dicionários são formados por pares chave-valor). O método ```setdefault()``` retorna o valor associado à chave.<br/>
 * Se a chave existir no dicionário, então o método atualizará o valor já associado à chave, e retornará o respectivo novo valor.<br/>
