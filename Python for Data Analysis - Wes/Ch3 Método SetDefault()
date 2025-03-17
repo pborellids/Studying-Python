@@ -1,0 +1,43 @@
+# O método setdefault() consulta se o dicionário tem um valor para a chave especificada. Se a chave não existir no dicionário,
+# o método acrescenta a chave e atribui o valor especificado a ela. Se a chave já existir, o método simplesmente retorna
+# o valor originalmente atribuído à chave (e ignora o valor especificado entre os argumentos). 
+# Abaixo, descrevo os dois casos.
+
+print('\n====== Como funciona o método setdefault() ======'.upper())
+print('''
+CASO 1) O dicionário não tem nenhuma das chaves encontradas nos argumentos do setdefault(). As novas chaves
+serão adicionadas ao dicionário.
+''')
+ordinais = ['primeiro', 'segundo', 'terceiro']
+chaves = ['objeto', 'material', 'preço']
+valores = ['mesa', 'madeira', '1.000,00']
+print('Lista de Chaves =', chaves)
+print('Lista de Valores =', valores)
+dic1 = {} # criamos um dicionário vazio.
+print('Dicionário inicialmente vazio:', dic1, '\n')
+for i in range(3): # i varia de 0 a 2, pois o dicionário terá 3 elementos.
+    print(ordinais[i].capitalize(), 'par key:value:', end = ' ') # capitalize() garante que os ordinais terão a inicial maiúscula
+    print('\"', chaves[i], ':', valores[i], '\"', sep = '')
+    dic1.setdefault(chaves[i], valores[i]) # nenhuma das chaves existe. Então o dicionário receberá cada chave e seu respectivo valor.
+    print('dic1 = ', dic1)
+print('Dicionário (versão final):', dic1)
+
+print('''
+CASO 2) O dicionário já tem a chave usada no argumento do setdefault(): a chave NÃO será adicionada, e o dicionário
+NÃO será alterado.
+''')
+dic2 = {'objeto': 'mesa'} # dicionário inicialmente já tem a chave 'objeto'.
+print('Inicialmente, o dicionário já tem a chave \'objeto\' com valor \'mesa\':')
+print(dic2, '\n') 
+print('\"dic2.setdefault(\'objeto\', \'cadeira\')\" não alterará o dicionário.')
+retorno = dic2.setdefault('objeto', 'cadeira')
+print('O método retorna \'', retorno, '\'', ' e o dicionário continua ', dic2, '.', sep = '')
+
+
+
+frutas = ['manga', 'acerola', 'beterraba', 'melancia', 'abacate', 'banana']
+dic3 = {} # dicionário vazio
+for fruta in frutas:
+    inicial_fruta = fruta[0] # inicial do nome da fruta
+    dic3.setdefault(inicial_fruta, []).append(fruta)
+print('Dicionário:', dic3) 
